@@ -18,10 +18,10 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
-  onSubmit() {
+  onSubmit(): void {
     this.router.navigate(['/home']);
   }
 
